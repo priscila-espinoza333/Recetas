@@ -2,6 +2,7 @@ from flask import render_template, redirect, request, session, flash
 from flask_app import app
 
 from flask_app.models.users import User
+from flask_app.models.recipes import Recipe
 
 #Importación de BCrypt es la encarga de encriptar nuestra contraseña
 #RECORDATORIO debo instalar la libreria de bcrypt por lo que sera : 
